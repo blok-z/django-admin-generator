@@ -29,20 +29,19 @@ Links
 * Documentation
     - http://django-admin-generator.readthedocs.org/en/latest/
 * Source
-    - https://github.com/WoLpH/django-admin-generator
+    - https://github.com/blok-z/django-admin-generator
 * Bug reports 
-    - https://github.com/WoLpH/django-admin-generator/issues
+    - https://github.com/blok-z/django-admin-generator/issues
 * Package homepage
-    - https://pypi.python.org/pypi/django-admin-generator
-* My blog
-    - http://w.wol.ph/
+    - https://pypi.org/project/django-admin-generator-blokz/1.0.0/
+
 
 Install
 -------
 
 To install:
 
- 1. Run `pip install django-admin-generator` or execute `python setup.py install` in the source directory
+ 1. Run `pip install django-admin-generator-blokz` or execute `python setup.py install` in the source directory
  2. Add `django_admin_generator` to your `INSTALLED_APPS`
  
 If you want to run the tests, run `py.test` (requires `pytest`)
@@ -57,4 +56,3 @@ To generate an admin for a given app:
 To generate an admin for a given app with all models starting with user:
 
     ./manage.py admin_generator APP_NAME '^user' >> APP_NAME/admin.py
-

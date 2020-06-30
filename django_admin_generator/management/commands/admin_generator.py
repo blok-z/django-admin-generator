@@ -54,13 +54,14 @@ NO_QUERY_DB = False
 
 PRINT_IMPORTS = '''# vim: set fileencoding=utf-8 :
 from django.contrib import admin
+from rules.contrib.admin import ObjectPermissionsModelAdmin
 
 from . import models
 '''
 
 PRINT_ADMIN_CLASS = '''
 
-class %(name)sAdmin(admin.ModelAdmin):
+class %(name)sAdmin(admin.ObjectPermissionsModelAdmin):
 %(class_)s
 '''
 
@@ -415,5 +416,3 @@ class Command(base_command.CustomBaseCommand):
 
     def handle_app(self, app, model_res, **options):
         print(AdminApp(app, model_res, **options))
-
-
