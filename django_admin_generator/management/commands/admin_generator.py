@@ -61,7 +61,7 @@ from . import models
 
 PRINT_ADMIN_CLASS = '''
 
-class %(name)sAdmin(admin.ObjectPermissionsModelAdmin):
+class %(name)sAdmin(ObjectPermissionsModelAdmin):
 %(class_)s
 '''
 
