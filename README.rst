@@ -33,7 +33,7 @@ Links
 * Bug reports 
     - https://github.com/blok-z/django-admin-generator/issues
 * Package homepage
-    - https://pypi.org/project/django-admin-generator-blokz/1.0.0/
+    - https://pypi.org/project/django-admin-generator-blokz/1.0.1/
 
 
 Install

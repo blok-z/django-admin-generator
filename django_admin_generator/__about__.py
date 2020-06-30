@@ -1,5 +1,5 @@
 __package_name__ = 'django-admin-generator-blokz'
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 __author__ = 'Mohamed Abdulaziz'
 __author_email__ = 'mo@blok-z.com'
 __description__ = ' '.join(('''
